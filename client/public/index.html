@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sheduler</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</head>
+<body>
+
+    <div class="app">
+
+        <form class="addMessageForm" action="/echoAtTime" method="post">
+            <label for="datePicker">Date when message will be fired</label>
+            <input id="datePicker" name="date" type="datetime-local" placeholder="Choose date when meeage will fire"/>
+            <textarea id="message" name="message" placeholder="Write your message"></textarea>
+            <input type="submit"/>
+        </form>
+
+        <form class="resetRedisForm" action="/reset" method="post">
+            <label for="reset">Reset redis</label>
+            <input id="reset" type="submit"/>
+        </form>
+
+    </div>
+
+</body>
+</html>

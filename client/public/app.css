@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+    display: grid;
+}
+
+.app {
+    display: grid;
+    width: 300px;
+    grid-template-columns: 300px 300px;
+    grid-gap: 15px 15px;
+}
+
+.addMessageForm{
+    display: grid;
+    grid-template-rows: 5px 25px 200px 50px;
+    grid-gap: 15px 15px;
+
+}
+
+.resetRedisForm{
+    display: grid;
+    grid-template-rows: 15px 25px;
+    grid-gap: 15px 15px;
+}
